@@ -1,0 +1,55 @@
+.input
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.num1
+{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+.btn
+{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.main
+{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    background-color: aqua;
+    width: 350px;
+    margin: auto;
+}
+.first
+{
+    margin: 20px;
+}
+#result
+{
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+.both
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
